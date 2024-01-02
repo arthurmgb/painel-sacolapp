@@ -99,9 +99,9 @@ include_once($app_config);
     include_once('modals/pedidos/restaurar.php');
     ?>
 
-    <script src="../js/scripts_pedidos.js?ver=1.1"></script>
+    <script src="../js/scripts_pedidos.js?ver=1.0"></script>
 
-    <script src="../js/ajax_pedidos.js?ver=1.1"></script>
+    <script src="../js/ajax_pedidos.js?ver=1.0"></script>
 
 </body>
 

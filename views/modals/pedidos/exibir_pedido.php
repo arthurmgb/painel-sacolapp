@@ -12,6 +12,10 @@
                     <div style="font-size: 16px;" class="card-body">
                         <div id="codigoPedido" class="mb-2">
                         </div>
+                        <div id="nomePedido" class="mb-2">
+                        </div>
+                        <div id="enderecoPedido" class="mb-2">
+                        </div>
                         <div id="clientePedido" class="mb-2">
                         </div>
                         <div id="situacaoPedido" class="mb-2">

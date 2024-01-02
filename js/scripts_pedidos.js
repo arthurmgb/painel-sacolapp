@@ -38,7 +38,7 @@ let readTable = $("#read-table").DataTable({
     {
       data: "id",
       createdCell: function (cell, cellData, rowData, rowIndex, colIndex) {
-        $(cell).html("0" + cellData);
+        $(cell).html(cellData);
       },
     },
     {

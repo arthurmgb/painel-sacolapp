@@ -142,7 +142,9 @@ const exibir = (event) => {
     data: { id: id },
     success: function (response) {
       const pedido = JSON.parse(response)[0];
-      $("#codigoPedido").html("<b>Código do pedido:</b> " + "0" + pedido.id);
+      $("#codigoPedido").html("<b>Código do pedido:</b> " + pedido.id);
+      $("#nomePedido").html("<b>Nome do cliente:</b> " + pedido.nome);
+      $("#enderecoPedido").html("<b>Endereço:</b> " + pedido.endereco);
       $("#clientePedido").html("<b>Nº do cliente:</b> " + pedido.whatsapp);
 
       const situacoes = ["Pendente", "Concluído", "Cancelado"];
